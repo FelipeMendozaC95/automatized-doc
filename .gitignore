@@ -3,10 +3,10 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-ms-usuarios/mvnw
-ms-usuarios/.mvn
-ms-usuarios/.mvn/**
-ms-usuarios/mvnw.cmd
+ms-users/mvnw
+ms-users/.mvn
+ms-users/.mvn/**
+ms-users/mvnw.cmd
 ### STS ###
 .apt_generated
 .classpath
@@ -85,14 +85,14 @@ ehthumbs.db
 /ms-processes/HELP.md
 /ms-processes/.gitattributes
 
-/ms-api-documents/.mvn/
-/ms-api-documents/.mvn/wrapper
-/ms-api-documents/.classpath
-/ms-api-documents/.gitattributes
-/ms-api-documents/.gitignore
-/ms-api-documents/mvnw.cmd
-/ms-api-documents/mvnw
-/ms-api-documents/mvnw
+/ms-documents/.mvn/
+/ms-documents/.mvn/wrapper
+/ms-documents/.classpath
+/ms-documents/.gitattributes
+/ms-documents/.gitignore
+/ms-documents/mvnw.cmd
+/ms-documents/mvnw
+/ms-documents/mvnw
 
 /ms-notifications/.mvn/
 /ms-notifications/.mvn/wrapper
