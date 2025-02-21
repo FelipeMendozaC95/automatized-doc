@@ -42,4 +42,18 @@ public class UserServiceImpl implements UserService {
     public void deleteUser(Long id) {
         repository.deleteById(id);
     }
+
+    @Override
+    public Optional<User> updateUser(User user, Long id) {
+        return repository.findById(id)
+                .map(existingUser -> {
+                    existingUser.setUsername(user.getUsername());
+                    existingUser.setPassword(user.getPassword());
+                    existingUser.setEmail(user.getEmail());
+                    existingUser.setRole(user.getRole());
+                    repository.save(existingUser);
+                    return existingUser;
+                });
+    }
+
 }
