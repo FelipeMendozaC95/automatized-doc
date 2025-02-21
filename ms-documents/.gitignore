@@ -3,7 +3,10 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
+ms-usuarios/mvnw
+ms-usuarios/.mvn
+ms-usuarios/.mvn/**
+ms-usuarios/mvnw.cmd
 ### STS ###
 .apt_generated
 .classpath
@@ -31,3 +34,40 @@ build/
 
 ### VS Code ###
 .vscode/
+.idea
+.classpath
+.project
+.settings
+.spriingBeans
+.factorypath
+target/
+build/
+.m2
+.gradle
+Thumbs.sb
+Icon?
+ehthumbs.db
+.DS_Store
+*.log
+*7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.project
+
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
